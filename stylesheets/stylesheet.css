@@ -66,8 +66,8 @@ a:hover {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  font-family: 'Skranji', 'Helvetica Neue', Helvetica, Arial, serif; 
+  background: #2e7bcf url(../images/codeu.579c1b.png) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
 
@@ -82,7 +82,7 @@ header h1 {
 
 header h2 {
   font-size: 26px;
-  color: #9ddcff;
+  color: #fe950d;
   font-weight: normal;
   line-height: 1.3;
   width: 540px;
@@ -136,7 +136,7 @@ a.button {
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Skranji', 'Helvetica Neue', Helvetica, Arial, serif; 
 }
 a.button small {
   display: block;
@@ -225,35 +225,37 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Skranji', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 2.8em;
   letter-spacing: -1px;
   color: #474747;
 } 
 
 #main-content h1:before {
-  content: "/";
-  color: #9ddcff;
+  content: "::";
+  color: #ff950d;
   padding-right: 0.3em;
-  margin-left: -0.9em;
+  margin-left: -0.95em;
+  font-size: larger;
 }
 
 #main-content h2 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Skranji', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 8px;
   color: #474747;
 } 
 #main-content h2:before {
-  content: "//";
-  color: #9ddcff;
+  content: "::";
+  color: #ff950d;
   padding-right: 0.3em;
-  margin-left: -1.5em;
+  margin-left: -1.2em;
+  font-size: larger;
 }
 
 #main-content h3 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Skranji', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 18px;
   font-weight: bold;
   margin-top: 24px;
@@ -262,48 +264,52 @@ form {
 } 
  
 #main-content h3:before {
-  content: "///";
-  color: #9ddcff;
+  content: "::";
+  color: #ff950d;
   padding-right: 0.3em;
-  margin-left: -2em;
+  margin-left: -1.3em;
+  font-size: larger;
 }
 
 #main-content h4 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Skranji', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 15px;
   font-weight: bold;
   color: #474747;
 } 
 
 h4:before {
-  content: "////";
-  color: #9ddcff;
+  content: "::";
+  color: #ff950d;
   padding-right: 0.3em;
-  margin-left: -2.8em;
+  margin-left: -1.4em;
+  font-size: larger;
 }
 
 #main-content h5 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Skranji', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 14px;
   color: #474747;
 } 
 h5:before {
-  content: "/////";
-  color: #9ddcff;
+  content: "::";
+  color: #ff950d;
   padding-right: 0.3em;
-  margin-left: -3.2em;
+  margin-left: -1.4em;
+  font-size: larger;
 }
 
 #main-content h6 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Skranji', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: .8em;
   color: #474747;
 } 
 h6:before {
-  content: "//////";
-  color: #9ddcff;
+  content: "::";
+  color: #ff950d;
   padding-right: 0.3em;
-  margin-left: -3.7em;
+  margin-left: -1.4em;
+  font-size: larger;
 }
 
 p {
