@@ -1,7 +1,7 @@
 ---
-Title: MarkDown tryout
+layout: default
+title: MarkDown tryout
 ---
-
 MARKDOWN
 ========
 
