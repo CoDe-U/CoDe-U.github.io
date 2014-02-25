@@ -2,38 +2,30 @@
 layout: default
 title: CoDe:U Front
 ---
-### Welcome to Continuous Delivery Users.
+## Welcome to Continuous Delivery Users
 
-This is the home of the professionally driven user group Continuous Delivery Users. If you have got the DevOps at heart and are interesting in anything _continuous_ you've come to the right place.
+This is the home of the professionally driven user group Continuous Delivery Users. It's an alliance for people within the software industry who are interested and engaged in the principles of Continuous Delivery and who wants to share their experiences, worries, challenges and successes and to learn from each other.
 
-```
-$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-```
+If you have got the DevOps at heart and are interesting in anything _continuous_ you've come to the right place.
 
-If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.
+### CoDe
+We are using the abbreviation `CoDe` the refer to `Co`ntinuous `De`livery. We like it better than plain _CD_ simply because CD can mean a lot of things: _Corpse Diplomatique_, _Compact Disc_, _Cursor Down_, _Can't Deliver_, _Civil Disobedience_. CD is already exhausted. 
 
-Here's a file called [MARKDOWN](markdown.html) generated form markdown.
+On the contrary CoDe has a lovely ambiguity build in; 'Are they talking about code - as in software code?' 'Yes, in a way we are!'
 
-### Designer Templates
+CoDe is exactly dealing with the quality of code.
 
-We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.
+### Share and meet
 
-# Rather Drive Stick?
-## Rather Drive Stick?
-### Rather Drive Stick?
-#### Rather Drive Stick?
-##### Rather Drive Stick?
-###### Rather Drive Stick?
+CoDe:U, the user group, is all about sharing experiences and meeting with peers. We have met in the user group in different _chapters_ and if you would like to help arrange a meeting in your area we would very much like that.
 
+To keep yourself continuously updated, you can follow us on twitter [@contdeliu](http://twitter.com/contdeliu) or join the [CoDe:U group](http://www.linkedin.com/groups?home=&gid=4893734) on LinkedIn. we're already counting more than 200 members.
 
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+### Contribute to the blog
 
-### Authors and Contributors
+If you have so much DevOps and CoDe at your heart, that you need get some of it off your chest, we would like to encourage you to contribute with a post on our blog. These are the ground rules:
 
-You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+* You post should touch on the subject of _Continuous Delivery_ ...however you define that.
+* Write your post in MarkDown (GitHub Flavour) and send it to the [codeu-editors](mailto:codeu-editors@praqma.com)
+* If it's your first blog post to CoDe:U please include a short bio on yourself - also in MarkDown.
 
-### Support or Contact
-
-Having trouble with Pages? Check out the documentation at [GitHub](http://help.github.com/pages) or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.

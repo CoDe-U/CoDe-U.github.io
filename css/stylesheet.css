@@ -19,7 +19,9 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: inherit;
+    font-variant: inherit;
+    line-height: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -57,8 +59,9 @@ body {
 }
 
 a {
-  color: #2879d0;
+  color: #569d1b;
 }
+
 a:hover {
   color: #2268b2;
 }
@@ -73,7 +76,7 @@ header {
 
 header h1 {
   letter-spacing: -1px;
-  font-size: 72px;
+  font-size: 47px;
   color: #fff;
   line-height: 1;
   margin-bottom: 0.2em;
@@ -81,13 +84,36 @@ header h1 {
 }
 
 header h2 {
-  font-size: 26px;
+  font-size: 30px;
   color: #fe950d;
   font-weight: normal;
   line-height: 1.3;
   width: 540px;
   letter-spacing: 0;
 }
+
+header .menu {
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding-top: 0px;
+  width: 87px;
+  color: #fff;
+  height: 21px;
+  background-color: #fe950d;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+header a.menu {
+  color: #fff;
+}
+
+header a.menu:hover {
+  color: #fff;
+}
+
 
 .inner {
   position: relative;
@@ -390,7 +416,7 @@ footer a:hover {
     width: 340px;
   }
   header h1 {
-    font-size: 60px;
+    font-size: 47px;
   }
   header h2 {
     font-size: 30px;
@@ -432,24 +458,34 @@ footer a:hover {
   }
   header a.button {
     background-image: none;
-    width: auto;
     height: auto;
     display: inline-block;
     margin-top: 15px;
-    padding: 5px 10px;
-    position: relative;
-    text-align: center;
+    padding: 5px 5px;
     font-size: 13px;
     line-height: 1;
-    background-color: #9ddcff;
+    background-color: #fff;
     color: #2879d0;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;                     
-    border-radius: 5px;    
+    border-radius: 5px;  
+    visibility: hidden;  
   }
   header a.button small {
     font-size: 13px;
     display: inline;
+  }
+  header a.menu {
+    height: auto;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    padding: 5px 0px;
+    line-height: 1;
+    float:none;   
+  }
+  header .menu {
+    
   }
   #main-content,
   aside#sidebar {
