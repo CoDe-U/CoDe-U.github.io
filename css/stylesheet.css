@@ -346,6 +346,26 @@ a {
   text-decoration: none;
 }
 
+.stdright, .stdleft, .stdcenter {
+   width:300px;
+   margin-top: 15px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.stdright {
+   float:right; 
+}
+
+.stdleft {
+   float:left; 
+}
+
+.stdcenter {
+   margin-left:  auto;
+   margin-right: auto;
+}
+
 p a {
   font-weight: 400;
 }
@@ -358,13 +378,13 @@ blockquote {
 }
 
 ul li {
-  list-style: disc inside;
-  padding-left: 20px;
+  list-style: circle;
+  margin-left: 20px;
 }
 
 ol li {
-  list-style: decimal inside;
-  padding-left: 3px;
+  list-style: decimal;
+  margin-left: 20px;
 }
 
 dl dd {
@@ -434,6 +454,11 @@ footer a:hover {
     padding-right: 0;
     margin-left: 0;
   }
+   .stdright,
+   .stdleft,
+   .stdcenter {
+   width:200px;
+}
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -502,6 +527,12 @@ footer a:hover {
   aside#sidebar a.button {
     display: none;
   }
+  .stdright,
+  .stdleft,
+  .stdcenter {
+   width:200px;
+   float:none; 
+}
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
